@@ -76,12 +76,36 @@ img{
 .main-nav a{
     color: #432;
 }
-/*HOME*/
-.cover-home{
-    background-image: url(../images/cover-home-l.webp);
+/* ヘッダーカバー画像
+---------------------------------*/
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
 }
-.avout{
-    margin: 4rem auto 0;
+.sub-cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+/*HOME
+---------------------------------*/
+.cover-home{
+    background-image: url(../images/cover-home-s.webp);
+}
+.about{
+    max-width:736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+.about p{
+    margin-bottom: 3rem;
+}
+/* NEWS
+---------------------------------*/
+.cover-news{
+    background-image: url(../images/cover-news-s.wedp)
 }
 /*フッター*/
 .page-footer{
@@ -102,14 +126,7 @@ img{
 .cover-home{
     background-image: url(../images/cover-home-s.webp);
 }
-.about{
-    max-width:736px;
-    padding: 0 1.5rem;
-    margin: 3rem auto 0;
-}
-.about p{
-    margin-bottom: 3rem;
-}
+
 /*フッター
 --------------------------*/
 .page-footer{
